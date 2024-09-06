@@ -1,0 +1,147 @@
+@media (min-width: 768px) {
+  .site-header {
+    background-image: url("/assets/img/main-backround-medium.svg");
+
+    .header-nav {
+      button {
+        width: 120px;
+        height: 50px;
+        font-size: 18px;
+      }
+    }
+
+    .header-wrap {
+      min-height: 893px;
+
+        .header-content {
+          .header-title {
+            font-size: 42px;
+            line-height: 58px;
+          }
+
+          .header-btn {
+            font-size: 18px;
+          }
+        }
+
+      .header-nav {
+        button {
+          font-size: 18px;
+          width: 120px;
+          height: 50px;
+        }
+      }
+    }
+  }
+
+
+  .main-section {
+    .container-steps{
+      height: 100px;
+
+      .item {
+        flex-direction: row;
+        align-items: center;
+        font-size: 13px;
+        width: 200px;
+
+        .item-info {
+          justify-content: start;
+          align-items: start;
+          padding-left: 10px;
+
+          strong {
+            font-size: 18px;
+            font-weight: 800;
+            line-height: 0;
+          }
+
+          p {
+            font-size: 14px;
+            text-align: left;
+          }
+        }
+
+        img{
+          width: 70px;
+        }
+      }
+    }
+
+    .container-settings {
+      .settings-title {
+        font-size: 24px;
+      }
+
+      .settings-wrap{
+        .settings-block {
+          width: 80px;
+
+          img {
+            width: 100px;
+          }
+
+          p {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .line {
+    display: none;
+  }
+
+  .footer-images {
+    border-top: 1px solid #2F3B52;
+    border-bottom: 1px solid #2F3B52;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+
+    .contact-wrap {
+      border-right: 1px solid #2F3B52;
+      padding-right: 15px;
+      margin: 10px 0;
+    }
+
+    .block__tittle {
+      text-align: left;
+      padding-left: 0;
+    }
+
+    .block__list {
+      justify-content: start;
+    }
+
+    .support-small {
+      display: none;
+    }
+
+    .payment-list {
+      max-width: 300px;
+
+    }
+
+    .support-medium {
+      border-left: 1px solid #2F3B52;
+      margin: 10px 0;
+      max-width: 180px;
+      display: block !important;
+    }
+  }
+
+  .about-us {
+    .expand-btn {
+      img{
+        display: none;
+      }
+    }
+
+    .expandable-content {
+      display: block !important;
+      text-align: left;
+    }
+  }
+}
